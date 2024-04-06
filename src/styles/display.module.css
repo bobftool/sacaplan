@@ -1,0 +1,98 @@
+.container {
+  aspect-ratio: 9/16;
+  font-size: clamp(0.57rem, -0.0142rem + 2.5962vw, 1rem); /* https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/ */
+  background: var(--black);
+  border-radius: clamp(2.5rem, 0.4623rem + 9.0566vw, 4rem);
+  width: clamp(288px, 80vw, 500px);
+  margin: 0 2.5vw;
+  overflow: hidden;
+  scroll-snap-align: center;
+}
+
+.image_container {
+  width: 100%;
+  height: 35%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info_container {
+  padding: 0 5%;
+}
+
+.info_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+
+.info_subsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2% 0;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  font-size: 250%;
+  font-weight: bold;
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  font-size: 150%;
+  font-weight: normal;
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  padding: 0;
+  color: var(--light-gray);
+  font-size: 150%;
+  font-weight: normal;
+  margin: 0;
+}
+
+.details_button {
+  background: none;
+  border: 0.15rem solid var(--white);
+  border-radius: clamp(2.5rem, 0.4623rem + 9.0566vw, 4rem);
+  color: var(--white);
+  padding: 5px 10px;
+  font-size: 150%;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.action_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.action_section {
+  padding: 2% 0;
+}
+
+.action_button {
+  background: var(--primary);
+  padding: 5px 20px;
+  border: none;
+  border-radius: clamp(2.5rem, 0.4623rem + 9.0566vw, 4rem);
+  color: var(--white);
+  font-size: 200%;
+  font-weight: bold;
+  cursor: pointer;
+}
