@@ -1,0 +1,11 @@
+.container{
+    margin-bottom: min(10vw, 4rem);
+}
+
+.title {
+  margin: 0 5vw;
+  margin-bottom: min(2.5vw, 1.5rem);
+  color: var(--white);
+  font-size: min(5vw, 2rem);
+  font-weight: bold;
+}

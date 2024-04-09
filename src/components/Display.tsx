@@ -20,44 +20,7 @@ function Display() {
           </div>
         </div>
         <div className={styles.info_section}>
-          <div className={styles.info_subsection}>
-            <h3 className={styles.description}>Género principal</h3>
-            <p className={styles.subtitle}>Reguetón</p>
-          </div>
-          <div className={styles.info_subsection}>
-            <button className={styles.details_button}>
-              Playlist del lugar
-            </button>
-          </div>
-        </div>
-        <div className={styles.info_section}>
-          <div className={styles.info_subsection}>
-            <h3 className={styles.description}>Presupuesto</h3>
-            <p className={styles.subtitle}>$200 - $500</p>
-          </div>
-          <div className={styles.info_subsection}>
-            <button className={styles.details_button}>Ver precios</button>
-          </div>
-        </div>
-        <div className={styles.info_section}>
-          <div className={styles.info_subsection}>
-            <h3 className={styles.description}>Se pone bueno a las</h3>
-            <p className={styles.subtitle}>11:00pm</p>
-          </div>
-        </div>
-        <div className={styles.info_section}>
-          <div className={styles.info_subsection}>
-            <h3 className={styles.description}>Calificación general</h3>
-            <p className={styles.subtitle}>8.9/10</p>
-          </div>
-          <div className={styles.info_subsection}>
-            <button className={styles.details_button}>Más detalles</button>
-          </div>
-        </div>
-      </div>
-      <div className={styles.action_container}>
-        <div className={styles.action_section}>
-          <button className={styles.action_button}>Jalo</button>
+          <p className={styles.description}>🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥</p>
         </div>
       </div>
     </div>

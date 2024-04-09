@@ -1,7 +1,9 @@
 import Display from "@/components/Display";
 import Slider from "@/components/Slider";
 import React from "react";
-import styles from './page.module.css'
+import styles from "./page.module.css";
+import Section from "@/components/Section";
+import Content from "@/components/Content";
 
 function page() {
   return (
@@ -14,20 +16,58 @@ function page() {
      * Próximos eventos
      */
     <div className={styles.main}>
-      <Slider>
-        <Display />
-        <Display />
-        <Display />
-        <Display />
-        <Display />
-        <Display />
-        <Display />
-        <Display />
-        <Display />
-        <Display />
-        <Display />
-        <Display />
-      </Slider>
+      <Content>
+        <Section title="📍 En tu zona">
+          <Slider>
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+          </Slider>
+        </Section>
+
+        <Section title="🎵 Que pongan">
+          <Slider>
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+          </Slider>
+        </Section>
+
+        <Section title="💸 Presupuesto de">
+          <Slider>
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+            <Display />
+          </Slider>
+        </Section>
+      </Content>
     </div>
     /**
      * Por presupuesto
